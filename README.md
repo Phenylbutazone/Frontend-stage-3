@@ -33,8 +33,8 @@ Then open your browser and go to:
 http://localhost:8000
 ```
 
-### 4. Using VS Code / Cursor Live Server
+### 4. Using VS Code 
 
-1. Open the cloned folder in VS Code or Cursor.
+1. Open the cloned folder in VS Code.
 2. Install and enable a **Live Server** extension.
 3. Right‑click `index.html` and choose **“Open with Live Server”**.
