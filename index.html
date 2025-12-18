@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Featured iPhone Accessories</title>
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      // Prevent navigation for "Shop Cases & Protection" link
+      document.addEventListener("DOMContentLoaded", function () {
+        const shopLink = document.querySelector(".shop-link");
+        if (shopLink) {
+          shopLink.addEventListener("click", function (e) {
+            e.preventDefault();
+          });
+        }
+      });
+    </script>
   </head>
   <body>
     <div class="container">
@@ -12,6 +23,7 @@
         <h2 class="section-title">Featured iPhone Accessories</h2>
 
         <div class="bento-grid">
+          <!-- Card 1: Tall (left) – Purple Fog -->
           <a href="#" class="product-card tall">
             <div class="product-image">
               <img
@@ -34,6 +46,7 @@
             </div>
           </a>
 
+          <!-- Card 2: Wide (right) – Sienna -->
           <a href="#" class="product-card wide">
             <div class="product-image">
               <img
@@ -56,6 +69,7 @@
             </div>
           </a>
 
+          <!-- Card 3: Small -->
           <a href="#" class="product-card small">
             <div class="product-image">
               <img
@@ -73,6 +87,7 @@
             </div>
           </a>
 
+          <!-- Card 4: Small -->
           <a href="#" class="product-card small">
             <div class="product-image">
               <img
@@ -92,6 +107,7 @@
             </div>
           </a>
 
+          <!-- Card 5: Small -->
           <a href="#" class="product-card small">
             <div class="product-image">
               <img
