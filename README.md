@@ -1,4 +1,4 @@
-# Frontend-stage-2
+# Frontend-stage-3
 
 ## How to run the project
 
@@ -7,8 +7,8 @@ You can run this project on **any machine** that has a web browser.
 ### 1. Clone or download the repo
 
 ```bash
-git clone https://github.com/Phenylbutazone/Frontend-stage-2.git
-cd Frontend-stage-2
+git clone https://github.com/Phenylbutazone/Frontend-stage-3.git
+cd Frontend-stage-3
 ```
 
 Or download the ZIP from GitHub and extract it, then open that folder.
@@ -37,4 +37,4 @@ http://localhost:8000
 
 1. Open the cloned folder in VS Code.
 2. Install and enable a **Live Server** extension.
-3. Right‑click `index.html` and choose **“Open with Live Server”**.
+3. Right‑click `index.html` and choose **"Open with Live Server"**.
